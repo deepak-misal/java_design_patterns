@@ -1,0 +1,20 @@
+package com.techlab.model;
+
+import java.sql.Date;
+import java.text.Format;
+import java.text.SimpleDateFormat;
+
+public class Asynchronous {
+	
+	public void test() {
+
+		new Thread(new Runnable() {
+	        public void run(){
+	            while(true) {
+	            	System.out.println(java.time.LocalTime.now());
+	            }
+	        }
+	    }).start();
+
+}
+}

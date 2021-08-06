@@ -1,0 +1,21 @@
+package com.techlab.model;
+
+import java.sql.Date;
+import java.text.Format;
+import java.text.SimpleDateFormat;
+
+public class Asynchronous {
+	
+	public void test() {
+		Format f = new SimpleDateFormat("HH.mm.ss");
+	    String strResult = f.format(new Date(0));
+		new Thread(new Runnable() {
+	        public void run(){
+	            while(true) {
+	            	System.out.println("Time = "+strResult);
+	            }
+	        }
+	    }).start();
+
+}
+}

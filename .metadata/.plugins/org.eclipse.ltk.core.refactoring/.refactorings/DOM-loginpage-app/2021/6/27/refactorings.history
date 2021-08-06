@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.techlab.model.IndividualTag.level&apos; in &apos;com.techlab.model.IndividualTag&apos;&#x0D;&#x0A;- Original project: &apos;DOM-loginpage-app&apos;&#x0D;&#x0A;- Original element: &apos;com.techlab.model.IndividualTag.level&apos;&#x0D;&#x0A;- Setter method name: &apos;setLevel&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;level&apos;" flags="589830" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.techlab.model{IndividualTag.java[IndividualTag^level" insertion="2" setter="setLevel" stamp="1625019800106" version="1.0" visibility="1"/>
+</session>

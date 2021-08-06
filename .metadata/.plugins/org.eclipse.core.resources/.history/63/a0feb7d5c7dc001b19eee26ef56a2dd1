@@ -1,0 +1,15 @@
+package com.techlab.model;
+
+public class Asynchronous {
+	
+	public void test() {
+		new Thread(new Runnable() {
+	        public void run(){
+	            while(true) {
+	            	System.out.println("time");
+	            }
+	        }
+	    }).start();
+
+}
+}

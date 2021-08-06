@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.techlab.model.Bottel&apos; to &apos;Bottle&apos;&#x0D;&#x0A;- Original project: &apos;builder-pattern-app&apos;&#x0D;&#x0A;- Original element: &apos;com.techlab.model.Bottel&apos;&#x0D;&#x0A;- Renamed element: &apos;com.techlab.model.Bottle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bottel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.techlab.model{Bottel.java[Bottel" matchStrategy="1" name="Bottle" qualified="false" references="true" similarDeclarations="false" stamp="1625151665785" textual="false" version="1.0"/>
+</session>
